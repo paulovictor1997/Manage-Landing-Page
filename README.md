@@ -11,7 +11,7 @@
 ## Links
  - Frontend Mentor Profile : [https://www.frontendmentor.io/profile/paulovictor1997](https://www.frontendmentor.io/profile/paulovictor1997)
 
- Live Site : []()
+ Live Site : [https://manage-landing-page-opal-nine.vercel.app/](https://manage-landing-page-opal-nine.vercel.app/)
 
  ## Preview
  ![assets/images/Preview.jpg](assets/images/Preview.jpg)
