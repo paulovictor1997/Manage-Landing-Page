@@ -12,8 +12,27 @@ closeButton.addEventListener("click", ()=> {
 });
 
 //Form
-const validateEmail = ()=>{
-  
+const form = document.querySelector("#form")
+const emailInput = document.querySelector("#email")
+
+form.addEventListener('submit',(e)=>{
+  e.preventDefault()
+  if(emailInput.value === '' || !validateEmail(emailInput.value)){
+    document.querySelector('.error').style.display = 'block';
+  } else {
+    document.querySelector('.error').style.display = 'none';
+  }
+})
+
+const validateEmail = (email)=>{
+  const regex = new RegExp(
+    /^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,}$/
+  )
+  if(regex.test(email)){
+    return true
+  } else{
+    return false
+  }
 }
 
 //Swiper JS config
