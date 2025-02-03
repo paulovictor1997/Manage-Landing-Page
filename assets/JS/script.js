@@ -11,6 +11,10 @@ closeButton.addEventListener("click", ()=> {
   mobileMenu.classList.remove("flex");
 });
 
+//Form
+const validateEmail = ()=>{
+  
+}
 
 //Swiper JS config
 var swiper = new Swiper(".swiper", {

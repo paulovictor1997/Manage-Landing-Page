@@ -433,3 +433,12 @@ footer {
 .footer-right button:hover {
     opacity: 1;
 }
+
+.error{
+    color: var(--secondary);
+    display: none;
+}
+
+.error span{
+    font-size: 10px;
+}
